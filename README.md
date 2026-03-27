@@ -17,7 +17,13 @@ Manufacturing environments are affected by more than just machine choice. Produc
 - inspection level
 - deburring and secondary operations
 
-This project simulates those relationships and analyzes how they impact defect rates and cost.
+This project simulates those relationships and analyzes how they impact defect rates and cost. It demonstrates how data analysis can be applied to manufacturing operations. Instead of only reporting basic averages, it explores how production variables interact and how those interactions affect business outcomes. The following processes are used:
+
+- building realistic datasets
+- cleaning and transforming data
+- performing exploratory analysis
+- visualizing patterns
+- comparing tradeoffs across multiple business metrics
 
 ## Project Goals
 
@@ -26,6 +32,17 @@ This project simulates those relationships and analyzes how they impact defect r
 - Compare machine performance across quality and cost metrics
 - Analyze which operational factors are associated with higher defect risk
 - Build a portfolio-ready project that demonstrates Python, pandas, and data analysis skills
+
+### Example Business Questions Answered
+
+This project helps answer questions such as:
+
+- Which machine has the lowest average defect rate?
+- Which materials are associated with the most defects?
+- Do rush orders increase production risk?
+- Does tool wear affect quality outcomes?
+- How does complexity impact cost and defect rate?
+- Which machine offers the best balance between quality, cost, and speed?
 
 ## Project Files
 
@@ -124,29 +141,6 @@ This helps identify which machine provides the best overall operational balance 
 - matplotlib
 - CSV file handling
 
-## Example Business Questions
-
-This project helps answer questions such as:
-
-- Which machine has the lowest average defect rate?
-- Which materials are associated with the most defects?
-- Do rush orders increase production risk?
-- Does tool wear affect quality outcomes?
-- How does complexity impact cost and defect rate?
-- Which machine offers the best balance between quality, cost, and speed?
-
-## Why This Project Matters
-
-This project demonstrates how data analysis can be applied to manufacturing operations in a practical way. Instead of only reporting basic averages, it explores how production variables interact and how those interactions affect business outcomes.
-
-It also reflects the kind of thinking used in data analyst and data science roles:
-
-- building realistic datasets
-- cleaning and transforming data
-- performing exploratory analysis
-- visualizing patterns
-- comparing tradeoffs across multiple business metrics
-
 ## Future Improvements
 
 - build an interactive dashboard in Power BI or Tableau
@@ -156,7 +150,3 @@ It also reflects the kind of thinking used in data analyst and data science role
 - include machine-specific maintenance schedules
 - simulate operator learning curves over time
 - recommend the best machine setup for a new incoming job
-
-## Author
-
-Created as a portfolio project to demonstrate data analysis, simulation, and manufacturing optimization using Python.
